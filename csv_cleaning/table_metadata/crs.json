@@ -1,0 +1,70 @@
+{
+    "table_name": "crs",
+    "foreign_keys": [
+        {
+            "column": "client_code",
+            "references": {
+            "table": "clients",
+            "column": "code"
+            }
+        }
+    ],
+    "columns": [
+      {
+        "csv_column_name": "Client Code",
+        "db_column_name": "client_code",
+        "data_type": "Int32",
+        "primary_key": true
+      },
+      {
+        "csv_column_name": "Individual Number\u00A0",
+        "db_column_name": "beneficial_owner_sequence_number",
+        "data_type": "Int8",
+        "primary_key": true
+      },
+      {
+        "csv_column_name": "Record\u00A0",
+        "db_column_name": "record_number",
+        "data_type": "Int8",
+        "primary_key": true
+      },
+      {
+        "csv_column_name": "Certification status",
+        "db_column_name": "certification_status",
+        "data_type": "string"
+      },
+      {
+        "csv_column_name": "Citizenship\u00A0",
+        "db_column_name": "citizenship",
+        "data_type": "string"
+      },
+      {
+        "csv_column_name": "Tax Jurisdiction\u00A0",
+        "db_column_name": "tax_jurisdiction",
+        "data_type": "string"
+      },
+      {
+        "csv_column_name": "Foreign ID\u00A0",
+        "db_column_name": "foreign_tax_id",
+        "data_type": "string"
+      },
+      {
+        "csv_column_name": "Reason Code\u00A0",
+        "db_column_name": "reason_code",
+        "data_type": "string"
+      },
+      {
+        "csv_column_name": "Reason Notes",
+        "db_column_name": "reason_notes",
+        "data_type": "string"
+      },
+      {
+        "csv_column_name": "Certified By\u00A0",
+        "db_column_name": "certified_by",
+        "data_type": "string"
+      }
+    ]
+  }
+
+
+

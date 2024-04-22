@@ -1,0 +1,168 @@
+{
+  "table_name": "accounts",
+  "foreign_keys": [
+    {
+      "column": "client_code",
+      "references": {
+        "table": "clients",
+        "column": "code"
+      }
+    }
+  ],
+  "columns": [
+    {
+      "csv_column_name": "Client Code",
+      "db_column_name": "client_code",
+      "data_type": "Int32"
+    },
+    {
+      "csv_column_name": "Account Number",
+      "db_column_name": "number",
+      "data_type": "string",
+      "primary_key": true
+    },
+    {
+      "csv_column_name": "Status (Account)",
+      "db_column_name": "status",
+      "data_type": "string"
+    },
+    {
+      "csv_column_name": "Open Date (Account)",
+      "db_column_name": "open_date",
+      "data_type": "date"
+    },
+    {
+      "csv_column_name": "Close Date (Account)",
+      "db_column_name": "close_date",
+      "data_type": "date",
+      "nullable": true
+    },
+    {
+      "csv_column_name": "Short Name (Account)",
+      "db_column_name": "short_name",
+      "data_type": "string"
+    },
+    {
+      "csv_column_name": "IA (Account)",
+      "db_column_name": "ia_code",
+      "data_type": "string"
+    },
+    {
+      "csv_column_name": "Account Type",
+      "db_column_name": "type",
+      "data_type": "string"
+    },
+    {
+      "csv_column_name": "Account Sub Type",
+      "db_column_name": "sub_type",
+      "data_type": "string"
+    },
+    {
+      "csv_column_name": "Funds (Account)",
+      "db_column_name": "funds",
+      "data_type": "string"
+    },
+    {
+      "csv_column_name": "Portfolio Type",
+      "db_column_name": "portfolio_type",
+      "data_type": "string"
+    },
+    {
+      "csv_column_name": "Class (Account)",
+      "db_column_name": "class_code",
+      "data_type": "Int8"
+    },
+    {
+      "csv_column_name": "Minimum Commission?",
+      "db_column_name": "minimum_commission_check",
+      "data_type": "boolean",
+      "boolean_true_string": "Y"
+    },
+    {
+      "csv_column_name": "Type of Commission",
+      "db_column_name": "commission_type",
+      "data_type": "string"
+    },
+    {
+      "csv_column_name": "Credit Int",
+      "db_column_name": "credit_int",
+      "data_type": "string"
+    },
+    {
+      "csv_column_name": "Debit Int",
+      "db_column_name": "debit_int",
+      "data_type": "string"
+    },
+    {
+      "csv_column_name": "Discretionary",
+      "db_column_name": "is_discretionary",
+      "data_type": "boolean",
+      "boolean_true_string": "YES"
+    },
+    {
+      "csv_column_name": "NI54 E-Mail",
+      "db_column_name": "ni54_email",
+      "data_type": "string"
+    },
+    {
+      "csv_column_name": "NI54 Mail",
+      "db_column_name": "ni54_mail",
+      "data_type": "string"
+    },
+    {
+      "csv_column_name": "NI54 Objecting",
+      "db_column_name": "ni54_objecting",
+      "data_type": "string"
+    },
+    {
+      "csv_column_name": "Option Approval",
+      "db_column_name": "option_approval",
+      "data_type": "Int8"
+    },
+    {
+      "csv_column_name": "Trades OK",
+      "db_column_name": "trades_okay",
+      "data_type": "boolean",
+      "boolean_true_string": "YES"
+    },
+    {
+      "csv_column_name": "Residence (Account)",
+      "db_column_name": "residence_code",
+      "data_type": "string"
+    },
+    {
+      "csv_column_name": "S/D Balance (Account)",
+      "db_column_name": "settle_date_balance",
+      "data_type": "Decimal",
+      "positive_suffix": "CR"
+    },
+    {
+      "csv_column_name": "T/D Balance (Account)",
+      "db_column_name": "trade_date_balance",
+      "data_type": "Decimal",
+      "positive_suffix": "CR"
+    },
+    {
+      "csv_column_name": "Equity/RTS (Account)",
+      "db_column_name": "equity",
+      "data_type": "Decimal",
+      "negative_prefix": "-"
+    },
+    {
+      "csv_column_name": "Market Value (Account)",
+      "db_column_name": "market_value",
+      "data_type": "Decimal",
+      "positive_suffix": "CR"
+    },
+    {
+      "csv_column_name": "Loan Value (Account)",
+      "db_column_name": "loan_value",
+      "data_type": "Decimal",
+      "positive_suffix": "CR"
+    }
+  ]
+}
+  
+  
+
+    

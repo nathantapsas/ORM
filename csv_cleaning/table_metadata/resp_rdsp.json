@@ -1,0 +1,172 @@
+{
+    "table_name": "resp_rdsp",
+    "foreign_keys": [
+        {
+            "column": "client_code",
+            "references": {
+                "table": "clients",
+                "column": "code"
+            }
+        },
+        {
+          "column": "account_number",
+          "references":{
+            "table": "accounts",
+            "column": "number"
+          }
+        }
+    ],
+    "columns": [
+      {
+        "csv_column_name": "Client Code",
+        "db_column_name": "client_code",
+        "data_type": "Int32"
+      },
+      {
+        "csv_column_name": "Account Number",
+        "db_column_name": "account_number",
+        "data_type": "string"
+      },
+      {
+        "csv_column_name": ["Address Number", "Addr Number"],
+        "db_column_name": "address_number",
+        "data_type": "Int8"
+      },
+      {
+        "csv_column_name": "Account Sub Type",
+        "db_column_name": "account_sub_type",
+        "data_type": "string"
+      },
+      {
+        "csv_column_name": ["Address Type", "Addr Type"],
+        "db_column_name": "address_type",
+        "data_type": "string"
+      },
+      {
+        "csv_column_name": "Birth Date",
+        "db_column_name": "birth_date",
+        "data_type": "string"
+      },
+      {
+        "csv_column_name": "CDIC Unique Client Identifier",
+        "db_column_name": "uci",
+        "data_type": "string"
+      },
+      {
+        "csv_column_name": "First Name",
+        "db_column_name": "first_name",
+        "data_type": "string"
+      },
+      {
+        "csv_column_name": "Last Name",
+        "db_column_name": "last_name",
+        "data_type": "string"
+      },
+      {
+        "csv_column_name": "Gender",
+        "db_column_name": "gender",
+        "data_type": "string"
+      },
+      {
+        "csv_column_name": ["Grant application", "Grant Application"],
+        "db_column_name": "grant_application",
+        "data_type": "string"
+      },
+      {
+        "csv_column_name": "Guardian",
+        "db_column_name": "guardian",
+        "data_type": "string"
+      },
+      {
+        "csv_column_name": "PCG First Name",
+        "db_column_name": "primary_caregiver_first_name",
+        "data_type": "string"
+      },
+      {
+        "csv_column_name": "PCG Last Name",
+        "db_column_name": "primary_caregiver_last_name",
+        "data_type": "string"
+      },
+      {
+        "csv_column_name": "PCG SIN/BN",
+        "db_column_name": "primary_caregiver_sin",
+        "data_type": "string"
+      },
+      {
+        "csv_column_name": "PCG Type",
+        "db_column_name": "primary_caregiver_id_type",
+        "data_type": "string"
+      },
+      {
+        "csv_column_name": "Record Type",
+        "db_column_name": "record_type",
+        "data_type": "string"
+      },
+      {
+        "csv_column_name": ["Relationship between Subscriber/Beneficiary","Relation"],
+        "db_column_name": "relationship",
+        "data_type": "Int8"
+      },
+      {
+        "csv_column_name": "SIN",
+        "db_column_name": "sin",
+        "data_type": "string"
+      },
+      {
+        "csv_column_name": "Stat",
+        "db_column_name": "is_active",
+        "data_type": "boolean",
+        "boolean_true_string": "A"
+      },
+      {
+        "csv_column_name": "UCI Percentage",
+        "db_column_name": "uci_percentage",
+        "data_type": "Decimal"
+      },
+      {
+        "csv_column_name": ["Taxable Province", "Taxable Prov"],
+        "db_column_name": "taxable_province",
+        "data_type": "string"
+      },
+      {
+        "csv_column_name": "Alloc",
+        "db_column_name": "allocation",
+        "data_type": "Decimal"
+      },
+      {
+        "csv_column_name": "P-Grant Province",
+        "db_column_name": "p_grant_province",
+        "data_type": "string"
+      },
+      {
+        "csv_column_name": "Request Add'l",
+        "db_column_name": "request_additional",
+        "data_type": "boolean",
+        "boolean_true_string": "YES"
+      },
+      {
+        "csv_column_name": "CDSB Status",
+        "db_column_name": "cdsb_status",
+        "data_type": "string"
+      },
+      {
+        "csv_column_name": "CDSG Status",
+        "db_column_name": "cdsg_status",
+        "data_type": "string"
+      },
+      {
+        "csv_column_name": "Election",
+        "db_column_name": "election",
+        "data_type": "string"
+      },
+      {
+        "csv_column_name": "Title",
+        "db_column_name": "title",
+        "data_type": "string"
+      }
+    ]
+  }
+  
+  
+  
+    

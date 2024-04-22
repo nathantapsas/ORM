@@ -1,0 +1,114 @@
+{
+    "table_name": "eft",
+    "foreign_keys": [
+        {
+            "column": "account_number",
+            "references": {
+            "table": "accounts",
+            "column": "number"
+            }
+        }
+    ],
+    "columns": [
+      {
+        "csv_column_name": "Acct Num",
+        "db_column_name": "account_number",
+        "data_type": "string",
+        "primary_key": true
+      },
+      {
+        "csv_column_name": "Sequence",
+        "db_column_name": "sequence_number",
+        "data_type": "Int8",
+        "primary_key": true
+      },
+      {
+        "csv_column_name": "Bank",
+        "db_column_name": "bank_institution_number",
+        "data_type": "string"
+      },
+      {
+        "csv_column_name": "Bank Account",
+        "db_column_name": "bank_account_number",
+        "data_type": "string"
+      },
+      {
+        "csv_column_name": "3rd Party",
+        "db_column_name": "third_party",
+        "data_type": "boolean",
+        "boolean_true_string": "YES"
+      },
+      {
+        "csv_column_name": "Bank Origin",
+        "db_column_name": "bank_country",
+        "data_type": "string"
+      },
+      {
+        "csv_column_name": "Branch",
+        "db_column_name": "bank_branch_number",
+        "data_type": "string"
+      },
+      {
+        "csv_column_name": "Description",
+        "db_column_name": "description",
+        "data_type": "string"
+      },
+      {
+        "csv_column_name": "EFT",
+        "db_column_name": "eft",
+        "data_type": "string"
+      },
+      {
+        "csv_column_name": "Funds",
+        "db_column_name": "funds",
+        "data_type": "string"
+      },
+      {
+        "csv_column_name": "Payee Line 1",
+        "db_column_name": "payee_line_1",
+        "data_type": "string"
+      },
+      {
+        "csv_column_name": "Payee Line 2",
+        "db_column_name": "payee_line_2",
+        "data_type": "string"
+      },
+      {
+        "csv_column_name": "Payee Line 3",
+        "db_column_name": "payee_line_3",
+        "data_type": "string"
+      },
+      {
+        "csv_column_name": "Payee Line 4",
+        "db_column_name": "payee_line_4",
+        "data_type": "string"
+      },
+      {
+        "csv_column_name": "Payee Line 5",
+        "db_column_name": "payee_line_5",
+        "data_type": "string"
+      },
+      {
+        "csv_column_name": "Payee Line 6",
+        "db_column_name": "payee_line_6",
+        "data_type": "string"
+      },
+      {
+        "csv_column_name": "Payee Type",
+        "db_column_name": "payee_type",
+        "data_type": "string"
+      },
+      {
+        "csv_column_name": "Status",
+        "db_column_name": "certified_by",
+        "data_type": "string"
+      },
+      {
+        "csv_column_name": "Transit",
+        "db_column_name": "certified_by",
+        "data_type": "string"
+      }
+    ]
+  }
+
+

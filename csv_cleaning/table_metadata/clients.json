@@ -1,0 +1,118 @@
+{
+    "table_name": "clients",
+    "columns": [
+      {
+        "csv_column_name": "Client Code",
+        "db_column_name": "code",
+        "data_type": "Int32",
+        "primary_key": true,
+        "is_nullable": false
+      },
+      {
+        "csv_column_name": "IA (Client)",
+        "db_column_name": "ia_code",
+        "data_type": "string"      
+      },
+      {
+        "csv_column_name": "Status (Client)",
+        "db_column_name": "status",
+        "data_type": "string"
+      },
+      {
+        "csv_column_name": "Recipient Type",
+        "db_column_name": "recipient_type",
+        "data_type": "Int8"
+      },
+      {
+        "csv_column_name": "First Name (Client)",
+        "db_column_name": "first_name",
+        "data_type": "string"
+      },
+      {
+        "csv_column_name": "Last Name (Client)",
+        "db_column_name": "last_name",
+        "data_type": "string"
+      },
+      {
+        "csv_column_name": "Residence",
+        "db_column_name": "residence_code",
+        "data_type": "string"
+      },
+      {
+        "csv_column_name": "Employee",
+        "db_column_name": "employee",
+        "data_type": "string"
+      },
+      {
+        "csv_column_name": "Monitor Code",
+        "db_column_name": "monitor_code",
+        "data_type": "string"
+      },
+      {
+        "csv_column_name": "Citizenship",
+        "db_column_name": "citizenship",
+        "data_type": "string"
+      },
+      {
+        "csv_column_name": "US Person",
+        "db_column_name": "is_us_person",
+        "data_type": "boolean",
+        "boolean_true_string": "YES"
+      },
+      {
+        "csv_column_name": "Birth Date (Client)",
+        "db_column_name": "birth_date",
+        "data_type": "date"
+      },
+      {
+        "csv_column_name": "SIN",
+        "db_column_name": "sin",
+        "data_type": "string"
+      },
+      {
+        "csv_column_name": "SSN/TIN",
+        "db_column_name": "ssn",
+        "data_type": "string"
+      },
+      {
+        "csv_column_name": "Corp ID Type",
+        "db_column_name": "corporate_id_type",
+        "data_type": "string"
+      },
+      {
+        "csv_column_name": "Corporate ID",
+        "db_column_name": "corporate_id",
+        "data_type": "string"
+      },
+      {
+        "csv_column_name": "ID Type",
+        "db_column_name": "verification_id",
+        "data_type": "string"
+      },
+      {
+        "csv_column_name": "Spouse Name",
+        "db_column_name": "spouse_name",
+        "data_type": "string"
+      },
+      {
+        "csv_column_name": "Spousal SIN",
+        "db_column_name": "spouse_sin",
+        "data_type": "string"
+      },
+      {
+        "csv_column_name": "Spouse Birth Date",
+        "db_column_name": "spouse_birth_date",
+        "data_type": "date"
+      },
+      {
+        "csv_column_name": "NRT Code",
+        "db_column_name": "nrt_code",
+        "data_type": "boolean",
+        "boolean_true_string": "1"
+      }
+    ]
+  }
+  
+  
+  
+    

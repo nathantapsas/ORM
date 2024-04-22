@@ -1,0 +1,157 @@
+{
+  "table_name": "kyc",
+  "foreign_keys": [
+    {
+      "column": "client_code",
+      "references": {
+        "table": "clients",
+        "column": "code"
+      }
+    }
+  ],
+  "columns": [
+    {
+      "csv_column_name": "Client Code",
+      "db_column_name": "client_code",
+      "data_type": "Int32"
+    },
+    {
+      "csv_column_name": "Sex",
+      "db_column_name": "sex",
+      "data_type": "string"
+    },
+    {
+      "csv_column_name": "Date Met",
+      "db_column_name": "date_met",
+      "data_type": "date"
+    },
+    {
+      "csv_column_name": "Employee Name",
+      "db_column_name": "employee_name",
+      "data_type": "string"
+    },
+    {
+      "csv_column_name": "Employee Address",
+      "db_column_name": "employee_address",
+      "data_type": "string"
+    },
+    {
+      "csv_column_name": "Employee Type",
+      "db_column_name": "employee_type",
+      "data_type": "string"
+    },
+    {
+      "csv_column_name": "Occupation",
+      "db_column_name": "occupation",
+      "data_type": "string"
+    },
+    {
+      "csv_column_name": "Approved By",
+      "db_column_name": "approved_by",
+      "data_type": "string"
+    },
+    {
+      "csv_column_name": "Employee Years",
+      "db_column_name": "employee_years",
+      "data_type": "string"
+    },
+    {
+      "csv_column_name": "Bank Account",
+      "db_column_name": "bank_account",
+      "data_type": "string"
+    },
+    {
+      "csv_column_name": "Bank Check?",
+      "db_column_name": "bank_check",
+      "data_type": "boolean",
+      "boolean_true_string": "yes"
+    },
+    {
+      "csv_column_name": "Credit Check?",
+      "db_column_name": "credit_check",
+      "data_type": "boolean",
+      "boolean_true_string": "yes"
+    },
+    {
+      "csv_column_name": "IA Met?",
+      "db_column_name": "ia_met",
+      "data_type": "boolean",
+      "boolean_true_string": "yes"
+    },
+    {
+      "csv_column_name": "Invest Knowledge",
+      "db_column_name": "investor_knowledge",
+      "data_type": "string"
+    },
+    {
+      "csv_column_name": "Marital Stat",
+      "db_column_name": "marital_status",
+      "data_type": "string"
+    },
+    {
+      "csv_column_name": "Number of Dependents",
+      "db_column_name": "number_of_dependants",
+      "data_type": "string"
+    },
+    {
+      "csv_column_name": "Spouse Emp Type",
+      "db_column_name": "spouse_employment_type",
+      "data_type": "string"
+    },
+    {
+      "csv_column_name": "Spouse Emp. Address",
+      "db_column_name": "spouse_employment_address",
+      "data_type": "string"
+    },
+    {
+      "csv_column_name": "Spouse Emp. Years",
+      "db_column_name": "spouse_employment_years",
+      "data_type": "string"
+    },
+    {
+      "csv_column_name": "Spouse Employer",
+      "db_column_name": "spouse_employer",
+      "data_type": "string"
+    },
+    {
+      "csv_column_name": "Spouse Occupation",
+      "db_column_name": "spouse_occupation",
+      "data_type": "string"
+    },
+    {
+      "csv_column_name": "Referred By",
+      "db_column_name": "referred_by",
+      "data_type": "string"
+    },
+    {
+      "csv_column_name": "Relation Name",
+      "db_column_name": "relation_name",
+      "data_type": "string"
+    },
+    {
+      "csv_column_name": "Relation Position",
+      "db_column_name": "relation_position",
+      "data_type": "string"
+    },
+    {
+      "csv_column_name": "Est Net Worth",
+      "db_column_name": "estimated_net_worth",
+      "data_type": "Decimal"
+    },
+    {
+      "csv_column_name": "Fixed Assets",
+      "db_column_name": "fixed_assets",
+      "data_type": "Decimal"
+    },
+    {
+      "csv_column_name": "Liquid Assets",
+      "db_column_name": "liquid_assets",
+      "data_type": "Decimal"
+    },
+    {
+      "csv_column_name": "Est Earnings",
+      "db_column_name": "income",
+      "data_type": "Decimal"
+    }
+  ]
+}

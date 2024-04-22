@@ -1,0 +1,143 @@
+{
+  "table_name": "securities",
+    "columns": [
+      {
+        "csv_column_name": ["Cusip/Security (Position)", "Cusip/Security (Trans)"],
+        "db_column_name": "cusip",
+        "data_type": "string",
+        "primary_key": true
+      },
+      {
+        "csv_column_name": "Market",
+        "db_column_name": "market",
+        "data_type": "string"
+      },
+      {
+        "csv_column_name": "Status (Securities)",
+        "db_column_name": "status",
+        "data_type": "string"
+      },
+      {
+        "csv_column_name": "Security Class",
+        "db_column_name": "class",
+        "data_type": "string"
+      },
+      {
+        "csv_column_name": "Expiry Date",
+        "db_column_name": "expiry_date",
+        "data_type": "date"
+      },
+      {
+        "csv_column_name": "Name",
+        "db_column_name": "name",
+        "data_type": "string"
+      },
+      {
+        "csv_column_name": "ISIN",
+        "db_column_name": "isin",
+        "data_type": "string"
+      },
+      {
+        "csv_column_name": "Funds",
+        "db_column_name": "funds",
+        "data_type": "string"
+      },
+      {
+        "csv_column_name": "Trades OK",
+        "db_column_name": "trades_ok",
+        "data_type": "boolean",
+        "boolean_true_string": "YES"
+      },
+      {
+        "csv_column_name": "Call/Put",
+        "db_column_name": "call_put",
+        "data_type": "string"
+      },
+      {
+        "csv_column_name": "Primary Symbol",
+        "db_column_name": "primary_symbol",
+        "data_type": "string"
+      },
+      {
+        "csv_column_name": "Under CUSIP",
+        "db_column_name": "under_cusip",
+        "data_type": "string"
+      },
+      {
+        "csv_column_name": "Undr Symbol",
+        "db_column_name": "under_symbol",
+        "data_type": "string"
+      },
+      {
+        "csv_column_name": "Security Code",
+        "db_column_name": "code",
+        "data_type": "string"
+      },
+      {
+        "csv_column_name": "Strike Price",
+        "db_column_name": "strike_price",
+        "data_type": "Decimal"
+      },
+      {
+        "csv_column_name": "Incorporation Country",
+        "db_column_name": "incorporation_country",
+        "data_type": "string"
+      },
+      {
+        "csv_column_name": "US ECI\u00a0",
+        "db_column_name": "us_eci",
+        "data_type": "boolean",
+        "boolean_true_string": "yes"
+      },
+      {
+        "csv_column_name": "Convertible",
+        "db_column_name": "convertible",
+        "data_type": "boolean",
+        "boolean_true_string": "Y"
+      },
+      {
+        "csv_column_name": "Price Status",
+        "db_column_name": "price_status",
+        "data_type": "string"
+      },
+      {
+        "csv_column_name": "Price Source",
+        "db_column_name": "price_source",
+        "data_type": "string"
+      },
+      {
+        "csv_column_name": "Price Factor",
+        "db_column_name": "price_factor",
+        "data_type": "string"
+      },
+      {
+        "csv_column_name": "Ask",
+        "db_column_name": "ask",
+        "data_type": "Decimal"
+      },
+      {
+        "csv_column_name": "Bid",
+        "db_column_name": "bid",
+        "data_type": "Decimal"
+      },
+      {
+        "csv_column_name": "Last Trade",
+        "db_column_name": "last_trade",
+        "data_type": "Decimal"
+      },
+      {
+        "csv_column_name": "Security Comment",
+        "db_column_name": "comment",
+        "data_type": "string"
+        },
+      {
+        "csv_column_name": "Portfolio Class",
+        "db_column_name": "portfolio_class",
+        "data_type": "string"
+      }
+    ]
+  }
+  
+
+
+    

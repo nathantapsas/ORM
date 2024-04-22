@@ -1,0 +1,266 @@
+{
+  "table_name": "addresses",
+
+  "foreign_keys": [
+      {
+          "column": "client_code",
+          "references": {
+              "table": "clients",
+              "column": "code"
+          }
+      }
+  ],
+  "columns": [
+    {
+      "db_column_name": "ID",
+      "data_type": "int"
+    },
+    {
+      "csv_column_name": "Client",
+      "db_column_name": "client_code",
+      "data_type": "Int32"
+    },
+    {
+      "csv_column_name": "Address Number",
+      "db_column_name": "sequence_number",
+      "data_type": "Int8"
+    },
+    {
+      "csv_column_name": "Account",
+      "db_column_name": "account_number",
+      "data_type": "string",
+      "nullable": true
+    },
+    {
+      "csv_column_name": "Structured Address?",
+      "db_column_name": "is_structured",
+      "data_type": "boolean",
+      "boolean_true_string": "YES"
+    },
+    {
+      "csv_column_name": "Civic Address?",
+      "db_column_name": "is_civic",
+      "data_type": "boolean",
+      "boolean_true_string": "YES"
+    },
+    {
+      "csv_column_name": "Address type",
+      "db_column_name": "is_beneficial_owner_address",
+      "data_type": "boolean",
+      "boolean_true_string": "BEN_OWNER"
+    },
+    {
+      "csv_column_name": "Addr Line 1",
+      "db_column_name": "line_1",
+      "data_type": "string"
+    },
+    {
+      "csv_column_name": "Addr Line 2",
+      "db_column_name": "line_2",
+      "data_type": "string"
+    },
+    {
+      "csv_column_name": "Addr Line 3",
+      "db_column_name": "line_3",
+      "data_type": "string"
+    },
+    {
+      "csv_column_name": "Addr Line 4",
+      "db_column_name": "line_4",
+      "data_type": "string"
+    },
+    {
+      "csv_column_name": "Addr Line 5",
+      "db_column_name": "line_5",
+      "data_type": "string"
+    },
+    {
+      "csv_column_name": "Addr Line 6",
+      "db_column_name": "line_6",
+      "data_type": "string"
+    },
+    {
+      "csv_column_name": "Addr Line 7",
+      "db_column_name": "line_7",
+      "data_type": "string"
+    },    
+    {
+      "csv_column_name": "Addr Line 8",
+      "db_column_name": "line_8",
+      "data_type": "string"
+    },
+    {
+      "csv_column_name": "Unit Number",
+      "db_column_name": "unit_number",
+      "data_type": "string",
+      "nullable": true
+    },
+    {
+      "csv_column_name": "Unit Type",
+      "db_column_name": "unit_type",
+      "data_type": "string",
+      "nullable": true
+    },
+    {
+      "csv_column_name": "Civic Number",
+      "db_column_name": "civic_number",
+      "data_type": "string",
+      "nullable": true
+    },
+    {
+      "csv_column_name": "Street",
+      "db_column_name": "street",
+      "data_type": "string",
+      "nullable": true
+    },
+    {
+      "csv_column_name": "Street Type",
+      "db_column_name": "street_type",
+      "data_type": "string",
+      "nullable": true
+    },
+    {
+      "csv_column_name": "Direction",
+      "db_column_name": "direction",
+      "data_type": "string",
+      "nullable": true
+    },
+    {
+      "csv_column_name": "City",
+      "db_column_name": "city",
+      "data_type": "string",
+      "nullable": true
+    },
+    {
+      "csv_column_name": "Province/State",
+      "db_column_name": "province",
+      "data_type": "string",
+      "nullable": true
+    },
+    {
+      "csv_column_name": "Postal Code/ZIP",
+      "db_column_name": "postal_code",
+      "data_type": "string",
+      "nullable": true
+    },
+    {
+      "csv_column_name": "Country",
+      "db_column_name": "country",
+      "data_type": "string"
+    },
+    {
+      "csv_column_name": "Station Name",
+      "db_column_name": "station_name",
+      "data_type": "string",
+      "nullable": true
+    },
+    {
+      "csv_column_name": "Station Type",
+      "db_column_name": "station_type",
+      "data_type": "string",
+      "nullable": true
+    },
+    {
+      "csv_column_name": "Mail Mode",
+      "db_column_name": "mail_mode",
+      "data_type": "string",
+      "nullable": true
+    },
+    {
+      "csv_column_name": "Mail Box/Bag",
+      "db_column_name": "mail_box",
+      "data_type": "string",
+      "nullable": true
+    },
+    {
+      "csv_column_name": "Mail Station",
+      "db_column_name": "mail_station",
+      "data_type": "string",
+      "nullable": true
+    },
+    {
+      "csv_column_name": "Mail Id",
+      "db_column_name": "mail_id",
+      "data_type": "string",
+      "nullable": true
+    },
+    {
+      "csv_column_name": "Non-dev. Info",
+      "db_column_name": "non_delivery_info_1",
+      "data_type": "string",
+      "nullable": true
+    },
+    {
+      "csv_column_name": "Non-dev. Info 2",
+      "db_column_name": "non_delivery_info_2",
+      "data_type": "string",
+      "nullable": true
+    },
+    {
+      "csv_column_name": "Send Statement",
+      "db_column_name": "statement",
+      "data_type": "boolean",
+      "boolean_true_string": "YES"
+    },
+    {
+      "csv_column_name": "Confirm Copies",
+      "db_column_name": "confirm_copies",
+      "data_type": "Int8"
+    },
+    {
+      "csv_column_name": "Int Confirm Copies",
+      "db_column_name": "internal_confirm_copies",
+      "data_type": "Int8"
+    },
+    {
+      "csv_column_name": "Statement Copies",
+      "db_column_name": "statement_copies",
+      "data_type": "Int8"
+    },
+    {
+      "csv_column_name": "Hold Statement",
+      "db_column_name": "hold_statement",
+      "data_type": "boolean",
+      "boolean_true_string": "YES"
+    },
+    {
+      "csv_column_name": "Cell Phone",
+      "db_column_name": "cell_phone",
+      "data_type": "string"
+    },
+    {
+      "csv_column_name": "Home Phone",
+      "db_column_name": "home_phone",
+      "data_type": "string"
+    },
+    {
+      "csv_column_name": "Work Phone",
+      "db_column_name": "work_phone",
+      "data_type": "string"
+    },
+    {
+      "csv_column_name": "Other Phone",
+      "db_column_name": "other_phone_1",
+      "data_type": "string"
+    },
+    {
+      "csv_column_name": "Other Phone.1",
+      "db_column_name": "other_phone_2",
+      "data_type": "string"
+    },
+    {
+      "csv_column_name": "Other Phone.2",
+      "db_column_name": "other_phone_3",
+      "data_type": "string"
+    },
+    {
+      "csv_column_name": "Other Phone.3",
+      "db_column_name": "other_phone_4",
+      "data_type": "string"
+    }
+  ]
+}
+
+
+
+  

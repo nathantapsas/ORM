@@ -1,0 +1,81 @@
+{
+    "table_name": "fee_accounts",
+    "constraints": [
+      {
+          "foreign_keys": [
+              {
+                  "column": "account_number",
+                  "references": {
+                      "table": "accounts",
+                      "column": "number"
+                  }
+              }
+          ]
+      }
+  ],
+    "columns": [
+      {
+        "csv_column_name": "Account Number",
+        "db_column_name": "account_number",
+        "data_type": "string",
+        "primary_key": true
+      },
+      {
+        "csv_column_name": "Fee Account",
+        "db_column_name": "fee_account_number",
+        "data_type": "string"
+      },
+      {
+        "csv_column_name": "Group ID",
+        "db_column_name": "group_id",
+        "data_type": "Int32"
+      },
+      {
+        "csv_column_name": "IA %",
+        "db_column_name": "ia_percentage",
+        "data_type": "Decimal"
+      },
+      {
+        "csv_column_name": "Joined",
+        "db_column_name": "date_joined",
+        "data_type": "date"
+      },
+      {
+        "csv_column_name": "Left",
+        "db_column_name": "date_left",
+        "data_type": "date"
+      },
+      {
+        "csv_column_name": "MM Fund",
+        "db_column_name": "mm_fund",
+        "data_type": "string"
+      },
+      {
+        "csv_column_name": "Payment Type",
+        "db_column_name": "payment_type",
+        "data_type": "string"
+      },      
+      {
+        "csv_column_name": "Sched Type",
+        "db_column_name": "schedule_type",
+        "data_type": "string"
+      }, 
+      {
+        "csv_column_name": "Sell Security",
+        "db_column_name": "sell_security",
+        "data_type": "string"
+      }, 
+      {
+        "csv_column_name": "Status",
+        "db_column_name": "is_active",
+        "data_type": "boolean",
+        "boolean_true_string": "A"
+      },
+      {
+        "csv_column_name": "Market Value (Account)",
+        "db_column_name": "market_value",
+        "data_type": "Decimal",
+        "positive_suffix": "CR"
+      }
+    ]
+}

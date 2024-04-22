@@ -1,0 +1,89 @@
+{
+    "table_name": "fee_groups",
+    "constraints": [
+      {
+          "foreign_keys": [
+              {
+                  "column": "account_number",
+                  "references": {
+                      "table": "accounts",
+                      "column": "number"
+                  }
+              }
+          ]
+      }
+  ],
+    "columns": [
+      {
+        "csv_column_name": "Group ID",
+        "db_column_name": "group_id",
+        "data_type": "Int32",
+        "primary_key": true
+      },
+      {
+        "csv_column_name": "Group Name",
+        "db_column_name": "name",
+        "data_type": "string"
+      },
+      {
+        "csv_column_name": "IA",
+        "db_column_name": "ia_code",
+        "data_type": "string"
+      },
+      {
+        "csv_column_name": "Fund Type",
+        "db_column_name": "fund_type",
+        "data_type": "string"
+      },
+      {
+        "csv_column_name": "Group Type",
+        "db_column_name": "group_portfolio_type",
+        "data_type": "string"
+      },
+      {
+        "csv_column_name": "Fee Basis",
+        "db_column_name": "fee_basis",
+        "data_type": "string"
+      },
+      {
+        "csv_column_name": "Free Trades Avail",
+        "db_column_name": "free_trades_available",
+        "data_type": "Int32"
+      },
+      {
+        "csv_column_name": "Minimum Fee",
+        "db_column_name": "minimum_fee",
+        "data_type": "Decimal"
+      },
+      {
+        "csv_column_name": "Rate",
+        "db_column_name": "rate",
+        "data_type": "Decimal"
+      },
+      {
+        "csv_column_name": "Trades Allowed",
+        "db_column_name": "trades_allowed",
+        "data_type": "Int32"
+      },
+      {
+        "csv_column_name": "Money Mgr Code",
+        "db_column_name": "money_manager_code",
+        "data_type": "string"
+      },
+      {
+        "csv_column_name": "Fee Adjustment Type",
+        "db_column_name": "fee_adjustment_type",
+        "data_type": "string"
+      },
+      {
+        "csv_column_name": "Fee Adjustment",
+        "db_column_name": "fee_adjustment",
+        "data_type": "Decimal"
+      },
+      {
+        "csv_column_name": "Anniversary Date",
+        "db_column_name": "anniversary_date",
+        "data_type": "date"
+      }
+    ]
+}

@@ -1,0 +1,68 @@
+{
+  "table_name": "positions",
+  "foreign_keys": [
+    {
+      "column": "account_number",
+      "references": {
+        "table": "accounts",
+        "column": "number"
+      }
+    }
+  ],
+  "columns": [
+    {
+      "csv_column_name": "Account",
+      "db_column_name": "account_number",
+      "data_type": "string"
+    },
+    {
+      "csv_column_name": "Cusip",
+      "db_column_name": "cusip",
+      "data_type": "string"
+    },
+    {
+      "csv_column_name": "Funds",
+      "db_column_name": "funds",
+      "data_type": "string"
+    },
+    {
+      "csv_column_name": "Client",
+      "db_column_name": "client_name",
+      "data_type": "string"
+    },
+    {
+      "csv_column_name": "Type",
+      "db_column_name": "account_type",
+      "data_type": "string"
+    },
+    {
+      "csv_column_name": "IA",
+      "db_column_name": "ia_code",
+      "data_type": "string"
+    },
+    {
+      "csv_column_name": "Current",
+      "db_column_name": "current_quantity",
+      "data_type": "Decimal",
+      "negative_suffix": "S"
+    },
+    {
+      "csv_column_name": "Pending",
+      "db_column_name": "pending_quantity",
+      "data_type": "Decimal",
+      "negative_suffix": "S"
+    },
+    {
+      "csv_column_name": "Segregated",
+      "db_column_name": "segregated_quantity",
+      "data_type": "Decimal",
+      "negative_suffix": "S"
+    },
+    {
+      "csv_column_name": "Safekeeping",
+      "db_column_name": "safekeeping_quantity",
+      "data_type": "Decimal",
+      "negative_suffix": "S"
+    }
+  ]
+}

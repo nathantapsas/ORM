@@ -1,0 +1,19 @@
+{
+    "table_name": "ia_codes",
+    "columns": [
+      {
+        "csv_column_name": "IA Code",
+        "db_column_name": "code",
+        "data_type": "string",
+        "primary_key": true
+      },
+      {
+        "csv_column_name": "Short Name",
+        "db_column_name": "description",
+        "data_type": "string"
+      }
+    ]
+  }
+
+
+

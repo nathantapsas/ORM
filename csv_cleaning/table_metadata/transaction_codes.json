@@ -1,0 +1,130 @@
+{
+    "table_name": "transaction_codes",
+    "columns": [
+      {
+        "csv_column_name": "Trans Code",
+        "db_column_name": "code",
+        "data_type": "string",
+        "primary_key": true
+      },
+      {
+        "csv_column_name": "Description",
+        "db_column_name": "description",
+        "data_type": "string"
+      },
+      {
+        "csv_column_name": "Append Exchng?",
+        "db_column_name": "append_exchange",
+        "data_type": "boolean",
+        "boolean_true_string": "YES"
+      },
+      {
+        "csv_column_name": "Auth Sub type",
+        "db_column_name": "auth_sub_type",
+        "data_type": "string"
+      },
+      {
+        "csv_column_name": "Can Enter Amt?",
+        "db_column_name": "can_enter_amount",
+        "data_type": "boolean",
+        "boolean_true_string": "YES"
+      },
+      {
+        "csv_column_name": "Can Enter Qty?",
+        "db_column_name": "can_enter_quantity",
+        "data_type": "boolean",
+        "boolean_true_string": "YES"
+      },
+      {
+        "csv_column_name": "Cost Type",
+        "db_column_name": "cost_type",
+        "data_type": "string"
+      },
+      {
+        "csv_column_name": "Desc Req?",
+        "db_column_name": "description_required",
+        "data_type": "boolean",
+        "boolean_true_string": "YES"
+      },
+      {
+        "csv_column_name": "For ACB Calc?",
+        "db_column_name": "for_acb_calculation",
+        "data_type": "boolean",
+        "boolean_true_string": "YES"
+      },
+      {
+        "csv_column_name": "For Accounting?",
+        "db_column_name": "for_accounting",
+        "data_type": "boolean",
+        "boolean_true_string": "YES"
+      },
+      {
+        "csv_column_name": "For Annual Fees Report?",
+        "db_column_name": "for_annual_fees_report",
+        "data_type": "boolean",
+        "boolean_true_string": "YES"
+      },
+      {
+        "csv_column_name": "For Memo?",
+        "db_column_name": "for_memo",
+        "data_type": "boolean",
+        "boolean_true_string": "YES"
+      },
+      {
+        "csv_column_name": "For ROI Calc?",
+        "db_column_name": "for_roi_calculation",
+        "data_type": "boolean",
+        "boolean_true_string": "YES"
+      },
+      {
+        "csv_column_name": "Gen Stmt?",
+        "db_column_name": "generate_statement",
+        "data_type": "boolean",
+        "boolean_true_string": "YES"
+      },
+      {
+        "csv_column_name": "Portfolio Category",
+        "db_column_name": "portfolio_category",
+        "data_type": "string"
+      },
+      {
+        "csv_column_name": "Post Amt?",
+        "db_column_name": "post_amount",
+        "data_type": "boolean",
+        "boolean_true_string": "YES"
+      },
+      {
+        "csv_column_name": "Post Qty?",
+        "db_column_name": "post_quantity",
+        "data_type": "boolean",
+        "boolean_true_string": "YES"
+      },
+      {
+        "csv_column_name": "Ref# Suffix",
+        "db_column_name": "reference_number_suffix",
+        "data_type": "boolean",
+        "boolean_true_string": "YES"
+      },
+      {
+        "csv_column_name": "Seg/Sfk Only?",
+        "db_column_name": "segment_safekeeping_only",
+        "data_type": "boolean",
+        "boolean_true_string": "YES"
+      },
+      {
+        "csv_column_name": "Stmt Sort",
+        "db_column_name": "statement_sort",
+        "data_type": "string"
+      },
+      {
+        "csv_column_name": "Unauth Sub type",
+        "db_column_name": "unauthorized_sub_type",
+        "data_type": "boolean",
+        "boolean_true_string": "YES"
+      }
+    ]
+  }
+
+
+
+
